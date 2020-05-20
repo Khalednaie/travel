@@ -4,12 +4,13 @@ body{
  background-size:cover
 }
 
-.con{
-  border-radius: 20px;
-  background-color: #f2f2f2c7;
-  padding: 20px;
-  margin:300px;
-  height:500px;
+
+.con{ 
+    border-radius: 20px;
+    background-color: #f2f2f2c7;
+    padding: 20px;
+    margin: 30px;
+    height: 500px;
 }
 
 #fligth{  display: inline-block;
@@ -53,4 +54,38 @@ body{
     border-radius: 20px;
     box-shadow: 0 9px #874eba42;
   margin:10px;
+}
+
+.diva > div{
+  float: left;
+  padding: 50px;
+  margin-left: 10px;
+}
+
+.diva .Flight {
+  background-image: url(../image/0807a3495ea6dfeb86e070732ea765fe.jpg);
+}
+
+.diva .Flight {
+  background-image: url(../image/0807a3495ea6dfeb86e070732ea765fe.jpg);
+}
+/**/
+.diva .hotel {
+  background-image: url(../image/2305cc58bf187aea2f6cc9e1aac8b771.jpg);
+}
+
+.diva .hotel{
+  background-image: url(../image/2305cc58bf187aea2f6cc9e1aac8b771.jpg);
+}
+/**/
+.diva .tourism {
+  background-image: url(../image/b91cd4a643c1cf36592417645a983545.jpg);
+}
+
+.diva .tourism1{
+  background-image: url(../image/2d9c09c2f12eb1e6d4785e01d9c5f286.jpg);
+}
+
+.completed{
+  text-decoration:line-through;
 }
