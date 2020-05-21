@@ -43,8 +43,9 @@ function flightA() {
   var li = document.createElement("li");
     li.innerHTML= "Flight A";
     var ul =document.getElementById("Flight")
-    ul.appendChild(li);
-
+    ul.appendChild(li)
+    //document.createElement("li").appendChild(document.getElementById("k1"));
+ 
 }
 
 function flightB() {
@@ -68,6 +69,7 @@ function hotelA() {
 }
 
 function hotelB() {
+  console.log("helo")
   alert('You are registerd in hotelB');
 
   var li = document.createElement("li");
@@ -96,6 +98,34 @@ function tourismB() {
     var ul =document.getElementById("mytourism")
     ul.appendChild(li);
 }
+// var add= document.getElementById("Flight");
+// var num=0;
+function kh(){
+  //console.log("helo")
+  // var lis = document.getElementById("Flight").getElementsByTagName("li");
+  // if(document.querySelector("#Flight").value!==0)
+  // alert('no element in last');
+ var flight = document.getElementById("Flight");
+  if (flight.hasChildNodes()) {
+    flight.removeChild(flight.childNodes[0]);
+  }
+ }
+
+ function ha(){
+  var flight = document.getElementById("myhotel");
+  if (flight.hasChildNodes()) {
+    flight.removeChild(flight.childNodes[0]);
+  }
+ }
+
+  function hb(){
+  var flight = document.getElementById("mytourism");
+  if (flight.hasChildNodes()) {
+    flight.removeChild(flight.childNodes[0]);
+  }
+ }
+
+
 // ////
 
 // var ul=document.getElementById("Flight")
